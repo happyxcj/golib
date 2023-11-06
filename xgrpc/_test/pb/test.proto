@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package pb;
+
+service Test {
+  rpc Test (TestReq) returns (TestResp) {}
+  rpc TestV2 (TestReqV2) returns (TestRespV2) {}
+}
+
+message TestReq {
+  string a = 1;
+  int64 b = 2;
+}
+
+message TestResp {
+  string v = 1;
+}
+
+message TestReqV2 {
+  string a = 1;
+  int64 b = 2;
+}
+
+message TestRespV2 {
+  string v = 1;
+}
