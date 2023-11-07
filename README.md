@@ -14,6 +14,8 @@ go get -u github.com/happyxcj/golib
 
 ## Examples
 
+### v0.3.0增加
+
 #### ecode: 
 
 For more simple usage, see the [test file](https://github.com/happyxcj/golib/blob/master/ecode/ecode_test.go)
@@ -25,3 +27,9 @@ For more simple usage, see the [test file](https://github.com/happyxcj/golib/blo
 #### xgrpc: 
 
 For more simple usage, see the [test directory](https://github.com/happyxcj/golib/blob/master/xgrpc/_test)
+
+### v0.4.0增加
+
+#### async: 
+
+For more simple usage, see the [test file](https://github.com/happyxcj/golib/blob/master/async/fn_worker_test.go)
